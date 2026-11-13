@@ -1,0 +1,8 @@
+﻿torch>=2.0
+torchvision>=0.15
+numpy
+pyyaml
+tqdm
+tensorboard
+scikit-learn
+matplotlib
