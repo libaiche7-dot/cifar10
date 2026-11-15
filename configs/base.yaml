@@ -7,7 +7,7 @@ data:
   num_workers: 0      # Windows: keep 0 or 2; Linux servers can use 8
 
 model:
-  name: resnet18
+  name: cnn           # start with cnn; switch to resnet18 for the comparison run
   num_classes: 10
 
 train:
