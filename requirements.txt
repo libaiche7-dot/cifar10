@@ -1,8 +1,12 @@
-﻿torch>=2.0
-torchvision>=0.15
-numpy
+# Tested on Windows 11 + RTX 5060 Laptop (sm_120) + driver 621.24
+# CUDA 13.4 build; must be >= cu128 for Blackwell GPUs.
+--extra-index-url https://download.pytorch.org/whl/cu134
+
+torch==2.15.0+cu134
+torchvision==0.29.2+cu134
+numpy==2.4.6
 pyyaml
 tqdm
-tensorboard
+tensorboard==2.21.0
 scikit-learn
 matplotlib
